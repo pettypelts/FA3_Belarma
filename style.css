@@ -1,0 +1,37 @@
+{
+				box-sizing: border-box;
+			}
+			body {
+				background-image: url("flowers.jpg");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-attachment: fixed;
+			} 	
+			h1 { 
+				text-align: center;
+				background-color: #336699; 
+				font-family: Arial, sans-serif; 
+				border: 2px dotted blue;
+				padding: 10px 15px;
+				width: 250px;
+				margin-left:auto;
+				margin-right:auto;
+				margin-bottom: 20px;
+			}
+			p { 
+				text-align: justify;
+				background-color: hsl(120, 50%, 70%); 
+				font-style: italic;
+				padding: 20px;
+				width: 500px;
+				border: 3px solid black;
+				border-style: dotted solid double dashed;
+				margin-right:auto;
+				margin-left: auto;
+			}	
+			span {
+				font-weight: bold;
+				font-style: italic;
+				color: rgb(255, 0, 0); 
+				margin: 2px 5px;
+			}
